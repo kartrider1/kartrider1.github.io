@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Сайт</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                box-sizing: border-box;
+            }
+           body{
+               min-height: 100vh;
+               background-image: linear-gradient(120deg, #f39c12, #8e44ad);
+           }
+           .tabl{
+              width: 1000px;
+              height: 750px;
+              background: #f1f1f1;
+              padding: 80px 40px; 
+              border-radius: 10px;
+              left: 50%;
+              top: 50%;
+              position: absolute;
+              transform: translate(-50%, -50%);
+           }
+           .txt{
+               margin-bottom: 60px;
+               text-align: center;
+           }
+           .button{
+               width: 100%;
+               height: 50px;
+               display: block;
+               border-radius: 15px;
+               cursor: pointer;
+               font-size: 20px;
+           }
+           .icons{
+               text-align: center;
+               position: absolute;
+               width: 90%;
+               top: 85%;
+           }
+           .knop{
+               display: inline-block;
+               width: 53px;
+               height: 53px;
+               background: #57606f ;
+               margin: 25px;
+               border-radius: 25px;
+           }
+           .knop i{
+               line-height: 50px;
+               font-size: 25px;
+           }
+           .dis{
+               color: #b2bec3;
+           }
+           .you{
+               color: #d63031;
+           }
+           .vk{
+               color: #0984e3;
+           }
+           .podder{
+               background:#f1f1f1;
+               top: 93%;
+               position: absolute;
+               border-radius: 10px;
+               width: 100px;
+               height: 50px;
+               font-size: 17px;
+               right: 0%;
+
+           }
+           .stream{
+               position: absolute;
+               top: 35%;
+               left: 1%;
+
+           }
+           .chat{
+               position: absolute;
+               top: 35%;
+               right: 1%;
+           }
+           .don{
+               background-image: linear-gradient(120deg, #D74177, #FFE98A);
+               width: 230px;
+               height: 53px;
+               display: inline-block;
+               border-radius: 25px;
+               margin: 25px;
+               position: absolute;
+               top: 98%;
+               left: 7%;
+               font-size: 20px;
+           }
+        </style>
+    </head>
+    <body>
+       <div class="tabl">
+           <h1 class="txt">Mitraflexx</h1>
+           <a href="https://www.twitch.tv/mitraflexx" target="blank"><input type="button" value="Перейти на канал" class="button"></a>
+           <div class="icons">
+            <a class="knop , dis" href="https://discord.gg/WN3KyCV" target="blank">
+             <i class="fab fa-discord"></i>
+            </a>
+            <a class="knop , you" href="https://www.youtube.com/channel/UCKPC5FDEg3-kEcjKF0pNmYQ" target="blank">
+             <i class="fab fa-youtube"></i>
+            </a>
+            <a class="knop , vk" href="https://vk.com/mitraxstream" target="blank">
+             <i class="fab fa-vk"></i>
+            </a>
+            </div>
+            <div class="stream">
+                <iframe src="https://player.twitch.tv/?channel=mitraflexx" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620">
+                </iframe>
+                <a href="https://www.donationalerts.com/r/mitraflexx" target="blank"><input type="button" value="Поддержать стримера" class="button , don"></a>
+            </div>
+            <div class="chat">
+              <iframe src="https://www.twitch.tv/embed/mitraflexx/chat" frameborder="0" scrolling="no" height="378" width="350">
+              </iframe>
+            </div>
+       </div>
+       <div>v1.3</div>
+       <div class="podder">
+           Поддержали:</br>
+           <a href="https://www.twitch.tv/sanek_02_" target="blank">Sanek_02_</a>
+       </div>  
+    </body>
+</html>
